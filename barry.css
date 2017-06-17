@@ -1,0 +1,352 @@
+body{
+font-family : 'source sans Pro', Calibri, Tahoma, sans-serif;
+padding : 0;
+margin : 0;
+background-Color: #f4f4f4;	
+}
+.contenu{
+
+width: 80%;
+margin : auto;
+overflow:hidden;
+
+}
+header{
+
+background-Color:#35424a;
+color : #ffffff; 
+padding-top : 2px;
+padding-bottom : 8px;
+min-height:30px;
+border-bottom:#a8491d 3px solid;
+
+}
+header a{
+color:#ffffff;
+text-decoration:none;
+text-transform:uppercase;
+font-size:16px;
+}
+header ul{
+margin:0;
+padding:0;
+}
+header li{
+float:left;
+display:inline;
+padding:0 20px 0 20px ;
+}
+header #Hamady{
+margin-left : 0;
+float:left;
+}
+header #Hamady h1{
+margin : 0;
+}
+header nav{
+float:right;
+margin-top : 10px; 
+}
+header .highlight, header .current_1 a{
+color:#e8491d;
+font-weight:bold;
+}
+
+ header .current_2 a{
+color:blue;
+font-weight:bold;
+}
+ header .current_3 a{
+color:#ffffff;
+font-weight:bold;
+}
+ header .current_4 a{
+color:#2EFE2E;
+font-weight:bold;
+}
+ header .current_5 a{
+color:#00FFFF;
+font-weight:bold;
+}
+ header .current_6 a{
+color:#FFFF00;
+font-weight:bold;
+}
+header a:hover{
+color:#cccccc;
+font-weight:normal;
+}
+
+.button_1{
+height:38px;
+background:#e8491d;
+border :0;
+padding-left:20px;
+padding-right:20px;
+color:#ffffff;
+}
+
+/*l'image de font pour une partie */
+
+#showcase{
+min-height:400px; 
+background: url("fond.PNG") no-repeat 0 -250px;
+/* background-color: #F6D8CE; */
+ background-size: cover;
+/* border-bottom:#a8491d 2px solid;
+ */}
+#showcase h1{
+margin-top:100px;
+font-size:55px;
+/* color : #ffffff; */
+color: #ffffff;
+margin-bottom:10px;
+}
+#showcase h2{
+color: #ffffff;
+font-size:20px;
+
+}
+#newsletter{
+
+padding: 3px;
+color : #ffffff;
+background : #35424a;
+/*border : #a8491d 1px solid;*/
+}
+#newsletter  h1{
+float : left;
+margin-top : 5px;
+}
+#newsletter form{
+float : right;
+margin-top : 5px;
+}
+#newsletter input {
+padding:10px;
+height:40;
+width:300;
+}
+
+/* logo */
+
+#logo{
+margin-top:20px;
+/* border-bottom:#a8491d 2px solid; */
+width : 100%;
+}
+
+#logo .box{
+float : left ;
+text-align : center;
+width :33%;
+padding : 10 px;
+
+}
+#logo .box img{
+width:75px;
+
+}
+footer {
+padding : 3px;
+margin-top:10px;
+color:#ffffff;
+background-color : #e8491d;
+text-align: center; 
+}
+
+#entetecv h1{
+color : #e8491d;
+font-size : 50px;
+}
+
+
+
+
+/* la partie photos*/
+
+#photos{
+margin-top:10px;
+border-bottom:#a8491d 2px solid; 
+width : 100%;
+}
+#photos .tof{
+float : center ; 
+width :50%;
+padding : 10px;
+
+}
+
+#photos .tof img{
+width:1000px;  /* zoom sur l'image*/
+margin-left: 30px;
+margin-right: 20px;
+}
+
+/* la partie contact*/
+
+
+#attentionwarning {
+
+background-Color:#f4f4f4;
+color : #ffffff; 
+padding-top : 30px;
+min-height:150px;
+
+}
+#attentionwarning .attention{
+
+float:right;
+margin-right : 400px;
+color : red;
+font-size : 20px;
+}
+
+#attentionwarning .warning{
+margin-left : 400px;
+float : center;
+
+}
+
+#formulaire {
+
+background : white;
+
+}
+
+#formulaire .contenu {
+/* border:#a8491d 3px solid; */
+margin-left : 3px;
+height:300px;
+width : 48%;
+float : right;
+background : #f4f4f4;;
+}
+
+
+
+#formulaire .aligne {
+
+margin-top : 3px;
+text-align :left;
+/* background : black; */
+float : left;
+width : 50%;
+}
+#formulaire .aligne input{
+
+float : right;
+padding-top : 1px;
+}
+#formulaire .aligne button {
+
+margin-top: 100px;
+
+}
+
+
+
+#mgformulaire .contenu {
+/* border:#a8491d 3px solid;  */
+height:300px;
+width : 48%;
+float : left;
+color: black;
+text-align : center;
+background : #f4f4f4;
+font-size : 130%;
+
+}
+#mgformulaire h1{
+text-align : center;
+}
+#mgformulaire em{
+text-align : center;
+color : blue;
+}
+
+#formulaire textarea {
+padding-top:1px;
+float : right;
+}
+
+
+
+#bande {
+padding : 3px;
+margin-top:300px;
+background-color : #a8491d;
+}
+
+
+
+
+/* partie rÃ©seaux sociaux*/
+
+
+.reseau  img{
+
+margin-left : 10px;
+height : 15px;
+width : 15px;	
+}
+.reseau p{
+color :black;
+}
+header .image_1 img {
+
+margin-left : 10px;
+height : 20px;
+width : 20px;	
+}
+
+/*au cas ou je veux rajouter mon image dans la barre d'accueil */
+
+ header .page img {  
+
+margin-left : 10px;
+height : 20px;
+width : 30;	
+} 
+
+.rotate90 {
+	margin-top : 220px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(-90deg);
+}
+.decale {
+margin-top : 220px;
+
+}
+
+	
+.pages{
+		width : 900px;
+		margin : auto;
+		font-size : 16px;
+		font-family : 'Source sans Pro', calibri, Tahoma, sans-serif;
+		background-color: #EFEFEF;
+	}
+	.infophoto{
+		height : 200px;
+	}
+	.info{
+		float : left;
+	}
+	.photo{
+		float : right;
+		width : 150px;
+		height: 150px;
+	}
+	
+	.h1{
+		background-color: #ED7F10;
+		color : black;
+        text-align : center;
+	}
+	
+	
+
